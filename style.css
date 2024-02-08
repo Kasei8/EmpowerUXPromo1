@@ -1,5 +1,9 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Aleo', serif;
+  background: radial-gradient(circle, #000000 0%, #000000 50%, #d4af37 100%);
+  color: #ffffff; /* White text color */
 }
 
 header {
