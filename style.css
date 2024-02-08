@@ -48,11 +48,16 @@ ul li {
   margin-bottom: 1rem;
 }
 
-footer a {
-  color: #ffffff; /* Change the color to match your footer design */
-  text-decoration: none; /* Remove underline */
+.buy-button {
+  /* Your existing styles for the buy button */
 }
 
-footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
+.buy-button a {
+  /* Your existing styles for the buy button link */
+}
+
+.email-address {
+  color: #ffffff; /* Change the color to match your design */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 10px; /* Add some space between the button and the email address */
 }
