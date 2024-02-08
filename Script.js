@@ -1,4 +1,22 @@
-/* Styles for the immersive header slider */
+// JavaScript code for any interactive features or behavior
+
+// Example: Smooth scrolling for anchor links
+$(document).ready(function() {
+    // Smooth scrolling for all anchor links
+    $('a[href*="#"]').on('click', function(event) {
+        if (this.hash !== '') {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
+// Additional JavaScript code for your website/* Styles for the immersive header slider */
 #rs-fullblock {
     position: relative;
     width: 100%;
