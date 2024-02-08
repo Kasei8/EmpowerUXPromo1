@@ -48,13 +48,11 @@ ul li {
   margin-bottom: 1rem;
 }
 
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background: #1B1212;
-  color: #fff;
+footer a {
+  color: #ffffff; /* Change the color to match your footer design */
+  text-decoration: none; /* Remove underline */
 }
 
-.footer a {
-  color: #d5af37;
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
