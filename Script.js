@@ -1,4 +1,33 @@
-const submitForm = async () => {
+/* Styles for the immersive header slider */
+#rs-fullblock {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+}
+
+.wp-block-themepunch-revslider {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles for your agency information */
+.agency-info {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.agency-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.agency-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Additional styles for other sections of your website */const submitForm = async () => {
   const data = {
     values: [
       [
