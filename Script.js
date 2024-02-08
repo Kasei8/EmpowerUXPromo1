@@ -27,7 +27,7 @@ const submitForm = async () => {
 }/values/${range}:append?valueInputOption=USER_ENTERED`, {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer 515068941893-eb7he1k7519ftqjd8nd9j72684jbs68g.apps.googleusercontent.com',
+        'Authorization': 'Bearer Web Client 1',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(data)
