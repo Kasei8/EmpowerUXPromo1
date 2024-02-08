@@ -1,63 +1,98 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Aleo', serif;
-  background: radial-gradient(circle, #000000 0%, #000000 50%, #d4af37 100%);
-  color: #ffffff; /* White text color */
+    font-family: 'Aleo', serif;
+    background: radial-gradient(circle, #000000 0%, #000000 50%, #d4af37 100%);
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
 }
 
+/* Header styles */
 header {
-  background: linear-gradient(to right, #850101, #1B1212, #d5af37);
-  color: #fff;
-  text-align: center;
-  padding: 2rem;
+    background: linear-gradient(to right, #c21807, #343434, #d4af37);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
 }
 
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+/* Main Content Section styles */
+.main-section {
+    padding: 2rem;
 }
 
-header h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+.main-section h2 {
+    color: #fff;
+    margin-bottom: 1rem;
 }
 
-.main-section,
-.packages-section,
+.main-section .content {
+    color: #fff;
+}
+
+.main-section .content h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.main-section .content ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.main-section .content ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Packages Section styles */
+.packages-section {
+    padding: 2rem;
+}
+
+.packages-section h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* Contact Form Section styles */
 .contact-form {
-  padding: 2rem;
+    padding: 2rem;
 }
 
-.main-section h2,
-.packages-section h2,
-.contact-form h2 {
-  color: #850101;
+.contact-form .buy-button {
+    margin-top: 1rem;
+    text-align: center;
 }
 
-.content {
-  margin-top: 1rem;
+.contact-form .buy-button p {
+    margin-bottom: 0.5rem;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.contact-form .buy-button a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #990838;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+    text-decoration: none;
 }
 
-ul li {
-  margin-bottom: 1rem;
+.contact-form .buy-button a:hover {
+    background-color: #7e032b;
 }
 
-.buy-button {
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 130px;
-  background: #FFFFFF; /* White background */
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
-  border-radius: 5px;
-  font-family: Domine, SQ Market, Helvetica, Arial, sans-serif;
-  padding: 0px; /* Adjust padding to make the white area smaller */
+.contact-form p {
+    color: #000;
+    text-align: center;
+}
